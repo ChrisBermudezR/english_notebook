@@ -1,0 +1,508 @@
+---
+title: "Phrasal Verbs"
+output:
+  pdf_document
+
+---
+| Nº  | Base Form      | Past Simple      | Past Participle    | Significado              |
+| --- | -------------- | ---------------- | ------------------ | ------------------------ |
+| 1   | ask around     | asked around     | asked around       | preguntar por ahí        |
+| 2   | back away      | backed away      | backed away        | retroceder               |
+| 3   | back down      | backed down      | backed down        | echarse atrás            |
+| 4   | back out       | backed out       | backed out         | retirarse de un acuerdo  |
+| 5   | back up        | backed up        | backed up          | respaldar                |
+| 6   | bail out       | bailed out       | bailed out         | rescatar financieramente |
+| 7   | bank on        | banked on        | banked on          | contar con               |
+| 8   | bear down on   | bore down on | borne down on  | presionar                |
+| 9   | beat up        | beat up      | beaten up      | golpear                  |
+| 10  | blow out       | blew out         | blown out          | apagar (una llama)       |
+| 11  | blow up        | blew up          | blown up           | explotar                 |
+| 12  | boil down to   | boiled down to   | boiled down to     | reducirse a              |
+| 13  | break away     | broke away       | broken away        | separarse                |
+| 14  | break down     | broke down       | broken down        | averiarse                |
+| 15  | break in       | broke in         | broken in          | entrar por la fuerza     |
+| 16  | break into     | broke into       | broken into        | irrumpir                 |
+| 17  | break out      | broke out        | broken out         | estallar                 |
+| 18  | break up       | broke up         | broken up          | romper relación          |
+| 19  | bring about    | brought about    | brought about      | provocar                 |
+| 20  | bring along    | brought along    | brought along      | traer consigo            |
+| 21  | bring back     | brought back     | brought back       | devolver                 |
+| 22  | bring down     | brought down     | brought down       | derribar                 |
+| 23  | bring in       | brought in       | brought in         | introducir               |
+| 24  | bring out      | brought out      | brought out        | lanzar al mercado        |
+| 25  | bring up       | brought up       | brought up         | mencionar                |
+| 26  | brush off      | brushed off      | brushed off        | ignorar                  |
+| 27  | build up       | built up         | built up           | fortalecer               |
+| 28  | burn out       | burned/burnt out | burned/burnt out   | agotarse                 |
+| 29  | burst out      | burst out    | burst out      | estallar en risa/llanto  |
+| 30  | call back      | called back      | called back        | devolver la llamada      |
+| 31  | call off       | called off       | called off         | cancelar                 |
+| 32  | call on        | called on        | called on          | visitar                  |
+| 33  | calm down      | calmed down      | calmed down        | calmarse                 |
+| 34  | care for       | cared for        | cared for          | cuidar                   |
+| 35  | carry on       | carried on       | carried on         | continuar                |
+| 36  | carry out      | carried out      | carried out        | realizar                 |
+| 37  | catch on       | caught on    | caught on      | ponerse de moda          |
+| 38  | catch up       | caught up    | caught up      | ponerse al día           |
+| 39  | check in       | checked in       | checked in         | registrarse              |
+| 40  | check out      | checked out      | checked out        | salir del hotel          |
+| 41  | chew out       | chewed out       | chewed out         | regañar                  |
+| 42  | chip in        | chipped in       | chipped in         | contribuir               |
+| 43  | clean up       | cleaned up       | cleaned up         | limpiar                  |
+| 44  | clear out      | cleared out      | cleared out        | desalojar                |
+| 45  | clear up       | cleared up       | cleared up         | aclarar                  |
+| 46  | close down     | closed down      | closed down        | cerrar permanentemente   |
+| 47  | come about     | came about       | come about         | suceder                  |
+| 48  | come across    | came across      | come across        | encontrarse con          |
+| 49  | come along     | came along       | come along         | acompañar                |
+| 50  | come back      | came back        | come back          | regresar                 |
+| 51  | come by        | came by          | come by            | pasar por                |
+| 52  | come down      | came down        | come down          | bajar                    |
+| 53  | come down with | came down with   | come down with     | enfermarse               |
+| 54  | come in        | came in          | come in            | entrar                   |
+| 55  | come off       | came off         | come off           | suceder con éxito        |
+| 56  | come out       | came out         | come out           | salir a la luz           |
+| 57  | come over      | came over        | come over          | visitar                  |
+| 58  | come up        | came up          | come up            | surgir                   |
+| 59  | come up with   | came up with     | come up with       | idear                    |
+| 60  | count on       | counted on       | counted on         | contar con               |
+| 61  | crack down on  | cracked down on  | cracked down on    | tomar medidas enérgicas  |
+| 62  | cross out      | crossed out      | crossed out        | tachar                   |
+| 63  | cut back on    | cut back on  | cut back on    | reducir                  |
+| 64  | cut down on    | cut down on  | cut down on    | disminuir                |
+| 65  | cut off        | cut off      | cut off        | cortar                   |
+| 66  | cut out        | cut out      | cut out        | eliminar                 |
+| 67  | deal with      | dealt with   | dealt with     | encargarse de            |
+| 68  | die down       | died down        | died down          | disminuir                |
+| 69  | dig up         | dug up       | dug up         | desenterrar              |
+| 70  | do away with   | did away with    | done away with     | eliminar                 |
+| 71  | do over        | did over         | done over          | rehacer                  |
+| 72  | do up          | did up           | done up            | abrochar                 |
+| 73  | do without     | did without      | done without       | prescindir               |
+| 74  | dress up       | dressed up       | dressed up         | vestirse elegante        |
+| 75  | drop by        | dropped by       | dropped by         | pasar a visitar          |
+| 76  | drop off       | dropped off      | dropped off        | dejar                    |
+| 77  | drop out       | dropped out      | dropped out        | abandonar estudios       |
+| 78  | eat out        | ate out          | eaten out          | comer fuera              |
+| 79  | end up         | ended up         | ended up           | terminar siendo          |
+| 80  | face up to     | faced up to      | faced up to        | enfrentar                |
+| 81  | fall apart     | fell apart   | fallen apart   | desmoronarse             |
+| 82  | fall behind    | fell behind  | fallen behind  | quedarse atrás           |
+| 83  | fall for       | fell for     | fallen for     | enamorarse de            |
+| 84  | fall off       | fell off     | fallen off     | disminuir                |
+| 85  | fall out       | fell out     | fallen out     | pelear                   |
+| 86  | fall through   | fell through | fallen through | fracasar                 |
+| 87  | figure out     | figured out      | figured out        | resolver                 |
+| 88  | fill in        | filled in        | filled in          | rellenar                 |
+| 89  | fill out       | filled out       | filled out         | completar formulario     |
+| 90  | fill up        | filled up        | filled up          | llenar                   |
+| 91  | find out       | found out    | found out      | descubrir                |
+| 92  | fix up         | fixed up         | fixed up           | arreglar                 |
+| 93  | focus on       | focused on       | focused on         | enfocarse en             |
+| 94  | follow up      | followed up      | followed up        | dar seguimiento          |
+| 95  | freak out      | freaked out      | freaked out        | alterarse                |
+| 96  | get ahead      | got ahead        | got ahead          | progresar                |
+| 97  | get along      | got along        | got along          | llevarse bien            |
+| 98  | get around     | got around       | got around         | moverse por ahí          |
+| 99  | get away       | got away         | got away           | escapar                  |
+| 100 | get away with  | got away with    | got away with      | salirse con la suya      |
+| 101 | get back        | got back          | gotten/got back     | regresar                  |
+| 102 | get back at     | got back at       | gotten/got back at  | vengarse                  |
+| 103 | get by          | got by            | gotten/got by       | arreglárselas             |
+| 104 | get in          | got in            | gotten/got in       | entrar                    |
+| 105 | get into        | got into          | gotten/got into     | involucrarse              |
+| 106 | get off         | got off           | gotten/got off      | bajarse                   |
+| 107 | get on          | got on            | gotten/got on       | subirse                   |
+| 108 | get over        | got over          | gotten/got over     | superar                   |
+| 109 | get rid of      | got rid of        | gotten/got rid of   | deshacerse de             |
+| 110 | get through     | got through       | gotten/got through  | superar una dificultad    |
+| 111 | get together    | got together      | gotten/got together | reunirse                  |
+| 112 | get up          | got up            | gotten/got up       | levantarse                |
+| 113 | give away       | gave away         | given away          | regalar                   |
+| 114 | give back       | gave back         | given back          | devolver                  |
+| 115 | give in         | gave in           | given in            | rendirse                  |
+| 116 | give out        | gave out          | given out           | repartir                  |
+| 117 | give up         | gave up           | given up            | rendirse                  |
+| 118 | go after        | went after        | gone after          | perseguir                 |
+| 119 | go ahead        | went ahead        | gone ahead          | seguir adelante           |
+| 120 | go along with   | went along with   | gone along with     | estar de acuerdo          |
+| 121 | go away         | went away         | gone away           | irse                      |
+| 122 | go back         | went back         | gone back           | regresar                  |
+| 123 | go by           | went by           | gone by             | pasar                     |
+| 124 | go down         | went down         | gone down           | disminuir                 |
+| 125 | go for          | went for          | gone for            | elegir                    |
+| 126 | go off          | went off          | gone off            | explotar/sonar            |
+| 127 | go on           | went on           | gone on             | continuar                 |
+| 128 | go out          | went out          | gone out            | salir                     |
+| 129 | go over         | went over         | gone over           | revisar                   |
+| 130 | go through      | went through      | gone through        | atravesar                 |
+| 131 | go up           | went up           | gone up             | subir                     |
+| 132 | grow up         | grew up           | grown up            | crecer                    |
+| 133 | hand in         | handed in         | handed in           | entregar                  |
+| 134 | hand out        | handed out        | handed out          | repartir                  |
+| 135 | hang on         | hung on           | hung on             | esperar                   |
+| 136 | hang out        | hung out          | hung out            | pasar el rato             |
+| 137 | hang up         | hung up           | hung up             | colgar el teléfono        |
+| 138 | head out        | headed out        | headed out          | salir                     |
+| 139 | heat up         | heated up         | heated up           | calentar                  |
+| 140 | help out        | helped out        | helped out          | ayudar                    |
+| 141 | hide out        | hid out           | hidden out          | esconderse                |
+| 142 | hold back       | held back         | held back           | contener                  |
+| 143 | hold on         | held on           | held on             | esperar                   |
+| 144 | hold up         | held up           | held up             | retrasar                  |
+| 145 | hook up         | hooked up         | hooked up           | conectar                  |
+| 146 | hurry up        | hurried up        | hurried up          | apurarse                  |
+| 147 | iron out        | ironed out        | ironed out          | resolver                  |
+| 148 | join in         | joined in         | joined in           | participar                |
+| 149 | keep away       | kept away         | kept away           | mantenerse alejado        |
+| 150 | keep on         | kept on           | kept on             | continuar                 |
+| 151 | keep up         | kept up           | kept up             | mantenerse                |
+| 152 | kick off        | kicked off        | kicked off          | iniciar                   |
+| 153 | knock down      | knocked down      | knocked down        | derribar                  |
+| 154 | knock out       | knocked out       | knocked out         | noquear                   |
+| 155 | laugh off       | laughed off       | laughed off         | restarle importancia      |
+| 156 | lay off         | laid off          | laid off            | despedir                  |
+| 157 | lead to         | led to            | led to              | conducir a                |
+| 158 | leave out       | left out          | left out            | omitir                    |
+| 159 | let down        | let down          | let down            | decepcionar               |
+| 160 | let in          | let in            | let in              | dejar entrar              |
+| 161 | let out         | let out           | let out             | dejar salir               |
+| 162 | lie down        | lay down          | lain down           | acostarse                 |
+| 163 | line up         | lined up          | lined up            | alinearse                 |
+| 164 | live up to      | lived up to       | lived up to         | estar a la altura         |
+| 165 | lock up         | locked up         | locked up           | encerrar                  |
+| 166 | look after      | looked after      | looked after        | cuidar                    |
+| 167 | look around     | looked around     | looked around       | mirar alrededor           |
+| 168 | look back       | looked back       | looked back         | recordar                  |
+| 169 | look down on    | looked down on    | looked down on      | menospreciar              |
+| 170 | look for        | looked for        | looked for          | buscar                    |
+| 171 | look forward to | looked forward to | looked forward to   | esperar con ansias        |
+| 172 | look into       | looked into       | looked into         | investigar                |
+| 173 | look out        | looked out        | looked out          | tener cuidado             |
+| 174 | look over       | looked over       | looked over         | revisar por encima        |
+| 175 | look up         | looked up         | looked up           | buscar información        |
+| 176 | look up to      | looked up to      | looked up to        | admirar                   |
+| 177 | make fun of     | made fun of       | made fun of         | burlarse                  |
+| 178 | make up         | made up           | made up             | inventar/maquillar        |
+| 179 | make up for     | made up for       | made up for         | compensar                 |
+| 180 | mix up          | mixed up          | mixed up            | confundir                 |
+| 181 | move in         | moved in          | moved in            | mudarse (entrar)          |
+| 182 | move out        | moved out         | moved out           | mudarse (salir)           |
+| 183 | nod off         | nodded off        | nodded off          | dormitar                  |
+| 184 | open up         | opened up         | opened up           | abrir                     |
+| 185 | pass away       | passed away       | passed away         | fallecer                  |
+| 186 | pass out        | passed out        | passed out          | desmayarse                |
+| 187 | pay back        | paid back         | paid back           | devolver dinero           |
+| 188 | pay off         | paid off          | paid off            | dar resultado/pagar deuda |
+| 189 | pick on         | picked on         | picked on           | molestar a alguien        |
+| 190 | pick out        | picked out        | picked out          | elegir                    |
+| 191 | pick up         | picked up         | picked up           | recoger                   |
+| 192 | point out       | pointed out       | pointed out         | señalar                   |
+| 193 | print out       | printed out       | printed out         | imprimir                  |
+| 194 | pull over       | pulled over       | pulled over         | orillarse                 |
+| 195 | pull through    | pulled through    | pulled through      | recuperarse               |
+| 196 | put away        | put away          | put away            | guardar                   |
+| 197 | put down        | put down          | put down            | menospreciar              |
+| 198 | put off         | put off           | put off             | posponer                  |
+| 199 | put on          | put on            | put on              | ponerse                   |
+| 200 | put out         | put out           | put out             | apagar                    |
+| 201 | put up with    | put up with      | put up with      | tolerar                          |
+| 202 | put together   | put together     | put together     | armar/ensamblar                  |
+| 203 | puzzle out     | puzzled out      | puzzled out      | resolver                         |
+| 204 | ramp up        | ramped up        | ramped up        | aumentar                         |
+| 205 | reach out      | reached out      | reached out      | contactar                        |
+| 206 | rely on        | relied on        | relied on        | depender de                      |
+| 207 | rule out       | ruled out        | ruled out        | descartar                        |
+| 208 | run across     | ran across       | run across       | encontrarse con                  |
+| 209 | run after      | ran after        | run after        | perseguir                        |
+| 210 | run away       | ran away         | run away         | escapar                          |
+| 211 | run into       | ran into         | run into         | toparse con                      |
+| 212 | run out        | ran out          | run out          | agotarse                         |
+| 213 | run over       | ran over         | run over         | atropellar/repasar               |
+| 214 | save up        | saved up         | saved up         | ahorrar                          |
+| 215 | screw up       | screwed up       | screwed up       | arruinar                         |
+| 216 | search for     | searched for     | searched for     | buscar                           |
+| 217 | see off        | saw off          | seen off         | despedir (a alguien)             |
+| 218 | see through    | saw through      | seen through     | ver a través de                  |
+| 219 | sell out       | sold out         | sold out         | agotarse                         |
+| 220 | set aside      | set aside        | set aside        | apartar                          |
+| 221 | set off        | set off          | set off          | iniciar viaje/explotar           |
+| 222 | set up         | set up           | set up           | configurar                       |
+| 223 | settle down    | settled down     | settled down     | asentarse                        |
+| 224 | show off       | showed off       | shown off        | presumir                         |
+| 225 | show up        | showed up        | shown up         | aparecer                         |
+| 226 | shut down      | shut down        | shut down        | apagar/cerrar                    |
+| 227 | shut up        | shut up          | shut up          | callarse                         |
+| 228 | sign in        | signed in        | signed in        | iniciar sesión                   |
+| 229 | sign up        | signed up        | signed up        | inscribirse                      |
+| 230 | single out     | singled out      | singled out      | seleccionar                      |
+| 231 | sit down       | sat down         | sat down         | sentarse                         |
+| 232 | sit through    | sat through      | sat through      | aguantar hasta el final          |
+| 233 | sleep in       | slept in         | slept in         | dormir hasta tarde               |
+| 234 | slow down      | slowed down      | slowed down      | desacelerar                      |
+| 235 | sort out       | sorted out       | sorted out       | resolver/ordenar                 |
+| 236 | speak up       | spoke up         | spoken up        | hablar fuerte                    |
+| 237 | speed up       | sped up          | sped up          | acelerar                         |
+| 238 | split up       | split up         | split up         | separarse/dividirse              |
+| 239 | stand by       | stood by         | stood by         | apoyar                           |
+| 240 | stand out      | stood out        | stood out        | destacar                         |
+| 241 | stand up       | stood up         | stood up         | ponerse de pie                   |
+| 242 | start over     | started over     | started over     | empezar de nuevo                 |
+| 243 | stay up        | stayed up        | stayed up        | trasnochar                       |
+| 244 | stick around   | stuck around     | stuck around     | quedarse cerca                   |
+| 245 | stick to       | stuck to         | stuck to         | apegarse a                       |
+| 246 | stick with     | stuck with       | stuck with       | quedarse con                     |
+| 247 | stock up on    | stocked up on    | stocked up on    | abastecerse                      |
+| 248 | straighten out | straightened out | straightened out | aclarar/ordenar                  |
+| 249 | switch off     | switched off     | switched off     | apagar                           |
+| 250 | switch on      | switched on      | switched on      | encender                         |
+| 251 | take after     | took after       | taken after      | parecerse a                      |
+| 252 | take apart     | took apart       | taken apart      | desarmar                         |
+| 253 | take back      | took back        | taken back       | retractarse/devolver             |
+| 254 | take down      | took down        | taken down       | derribar/anotar                  |
+| 255 | take in        | took in          | taken in         | asimilar                         |
+| 256 | take off       | took off         | taken off        | despegar/quitarse                |
+| 257 | take on        | took on          | taken on         | asumir                           |
+| 258 | take out       | took out         | taken out        | sacar                            |
+| 259 | take over      | took over        | taken over       | tomar control                    |
+| 260 | take up        | took up          | taken up         | comenzar (actividad)             |
+| 261 | talk into      | talked into      | talked into      | convencer                        |
+| 262 | talk out of    | talked out of    | talked out of    | disuadir                         |
+| 263 | tear down      | tore down        | torn down        | demoler                          |
+| 264 | think over     | thought over     | thought over     | reflexionar                      |
+| 265 | think through  | thought through  | thought through  | analizar a fondo                 |
+| 266 | throw away     | threw away       | thrown away      | tirar                            |
+| 267 | throw up       | threw up         | thrown up        | vomitar                          |
+| 268 | tidy up        | tidied up        | tidied up        | ordenar                          |
+| 269 | try on         | tried on         | tried on         | probarse ropa                    |
+| 270 | try out        | tried out        | tried out        | probar                           |
+| 271 | turn around    | turned around    | turned around    | dar la vuelta                    |
+| 272 | turn down      | turned down      | turned down      | rechazar                         |
+| 273 | turn in        | turned in        | turned in        | entregar/reportar                |
+| 274 | turn into      | turned into      | turned into      | convertirse en                   |
+| 275 | turn off       | turned off       | turned off       | apagar                           |
+| 276 | turn on        | turned on        | turned on        | encender                         |
+| 277 | turn out       | turned out       | turned out       | resultar                         |
+| 278 | turn up        | turned up        | turned up        | aparecer/subir volumen           |
+| 279 | use up         | used up          | used up          | agotar                           |
+| 280 | wake up        | woke up          | woken up         | despertarse                      |
+| 281 | walk away      | walked away      | walked away      | alejarse                         |
+| 282 | walk out       | walked out       | walked out       | abandonar                        |
+| 283 | watch out      | watched out      | watched out      | tener cuidado                    |
+| 284 | wear off       | wore off         | worn off         | desaparecer                      |
+| 285 | wear out       | wore out         | worn out         | desgastar                        |
+| 286 | whip up        | whipped up       | whipped up       | improvisar                       |
+| 287 | work out       | worked out       | worked out       | resolver/ejercitar               |
+| 288 | work on        | worked on        | worked on        | trabajar en                      |
+| 289 | wrap up        | wrapped up       | wrapped up       | envolver/finalizar               |
+| 290 | write down     | wrote down       | written down     | anotar                           |
+| 291 | write up       | wrote up         | written up       | redactar                         |
+| 292 | zoom in        | zoomed in        | zoomed in        | acercar (cámara)                 |
+| 293 | zoom out       | zoomed out       | zoomed out       | alejar (cámara)                  |
+| 294 | back off       | backed off       | backed off       | retirarse                        |
+| 295 | break off      | broke off        | broken off       | romper algo (relación, acuerdo)  |
+| 296 | bring forward  | brought forward  | brought forward  | adelantar                        |
+| 297 | clamp down on  | clamped down on  | clamped down on  | reprimir                         |
+| 298 | fall back on   | fell back on     | fallen back on   | recurrir a                       |
+| 299 | hand over      | handed over      | handed over      | entregar oficialmente            |
+| 300 | hit on         | hit on           | hit on           | coquetear / ocurrírsele una idea |
+| 301 | hold out         | held out           | held out           | resistir                        |
+| 302 | hold down        | held down          | held down          | mantener (un trabajo, posición) |
+| 303 | hold off         | held off           | held off           | posponer                        |
+| 304 | hook on          | hooked on          | hooked on          | engancharse a                   |
+| 305 | key in           | keyed in           | keyed in           | teclear                         |
+| 306 | kick out         | kicked out         | kicked out         | expulsar                        |
+| 307 | knock off        | knocked off        | knocked off        | dejar de trabajar               |
+| 308 | lash out         | lashed out         | lashed out         | arremeter contra                |
+| 309 | lay out          | laid out           | laid out           | exponer/organizar               |
+| 310 | level off        | leveled off        | leveled off        | estabilizarse                   |
+| 311 | lighten up       | lightened up       | lightened up       | relajarse                       |
+| 312 | line up          | lined up           | lined up           | alinearse                       |
+| 313 | live down        | lived down         | lived down         | superar una mala reputación     |
+| 314 | log in           | logged in          | logged in          | iniciar sesión                  |
+| 315 | log out          | logged out         | logged out         | cerrar sesión                   |
+| 316 | look in on       | looked in on       | looked in on       | visitar brevemente              |
+| 317 | look out for     | looked out for     | looked out for     | cuidar/estar pendiente          |
+| 318 | look sideways at | looked sideways at | looked sideways at | mirar con desconfianza          |
+| 319 | luck out         | lucked out         | lucked out         | tener suerte                    |
+| 320 | make out         | made out           | made out           | distinguir/besar                |
+| 321 | measure up       | measured up        | measured up        | estar a la altura               |
+| 322 | mess around      | messed around      | messed around      | perder el tiempo                |
+| 323 | mess up          | messed up          | messed up          | estropear                       |
+| 324 | miss out         | missed out         | missed out         | perderse algo                   |
+| 325 | move over        | moved over         | moved over         | hacerse a un lado               |
+| 326 | mull over        | mulled over        | mulled over        | reflexionar                     |
+| 327 | opt out          | opted out          | opted out          | excluirse                       |
+| 328 | own up           | owned up           | owned up           | admitir                         |
+| 329 | pass down        | passed down        | passed down        | transmitir                      |
+| 330 | pass up          | passed up          | passed up          | dejar pasar                     |
+| 331 | patch up         | patched up         | patched up         | reparar                         |
+| 332 | pay off          | paid off           | paid off           | liquidar/funcionar              |
+| 333 | pick apart       | picked apart       | picked apart       | criticar detalladamente         |
+| 334 | pile up          | piled up           | piled up           | acumular                        |
+| 335 | pitch in         | pitched in         | pitched in         | colaborar                       |
+| 336 | play along       | played along       | played along       | seguir el juego                 |
+| 337 | play down        | played down        | played down        | restar importancia              |
+| 338 | play up          | played up          | played up          | exagerar                        |
+| 339 | pull apart       | pulled apart       | pulled apart       | separar                         |
+| 340 | pull back        | pulled back        | pulled back        | retirarse                       |
+| 341 | pull off         | pulled off         | pulled off         | lograr                          |
+| 342 | pull out         | pulled out         | pulled out         | retirarse                       |
+| 343 | punch in         | punched in         | punched in         | registrar entrada               |
+| 344 | punch out        | punched out        | punched out        | registrar salida                |
+| 345 | push ahead       | pushed ahead       | pushed ahead       | avanzar                         |
+| 346 | push back        | pushed back        | pushed back        | rechazar                        |
+| 347 | push through     | pushed through     | pushed through     | sacar adelante                  |
+| 348 | put aside        | put aside          | put aside          | ahorrar/apartar                 |
+| 349 | put in           | put in             | put in             | invertir (tiempo/esfuerzo)      |
+| 350 | put forth        | put forth          | put forth          | proponer                        |
+| 351 | put up           | put up             | put up             | hospedar/levantar               |
+| 352 | quiet down       | quieted down       | quieted down       | calmarse                        |
+| 353 | rack up          | racked up          | racked up          | acumular                        |
+| 354 | reason with      | reasoned with      | reasoned with      | persuadir                       |
+| 355 | ring up          | rang up            | rung up            | registrar venta                 |
+| 356 | root for         | rooted for         | rooted for         | apoyar                          |
+| 357 | rule over        | ruled over         | ruled over         | gobernar                        |
+| 358 | run by           | ran by             | run by             | consultar                       |
+| 359 | run down         | ran down           | run down           | atropellar/agotar               |
+| 360 | run through      | ran through        | run through        | repasar rápido                  |
+| 361 | scale back       | scaled back        | scaled back        | reducir                         |
+| 362 | scout out        | scouted out        | scouted out        | explorar                        |
+| 363 | scrape by        | scraped by         | scraped by         | sobrevivir con dificultad       |
+| 364 | scratch out      | scratched out      | scratched out      | tachar                          |
+| 365 | see about        | saw about          | seen about         | ocuparse                        |
+| 366 | see out          | saw out            | seen out           | acompañar hasta la salida       |
+| 367 | sell off         | sold off           | sold off           | liquidar (venta)                |
+| 368 | send for         | sent for           | sent for           | enviar por                      |
+| 369 | send in          | sent in            | sent in            | enviar                          |
+| 370 | send out         | sent out           | sent out           | emitir/enviar                   |
+| 371 | settle for       | settled for        | settled for        | conformarse con                 |
+| 372 | settle in        | settled in         | settled in         | adaptarse                       |
+| 373 | shake off        | shook off          | shaken off         | sacudirse/quitarse              |
+| 374 | shape up         | shaped up          | shaped up          | mejorar                         |
+| 375 | share out        | shared out         | shared out         | repartir                        |
+| 376 | shine through    | shone through      | shone through      | sobresalir                      |
+| 377 | shoot down       | shot down          | shot down          | derribar                        |
+| 378 | shop around      | shopped around     | shopped around     | comparar precios                |
+| 379 | shrug off        | shrugged off       | shrugged off       | ignorar                         |
+| 380 | sign off         | signed off         | signed off         | cerrar sesión/terminar          |
+| 381 | single out       | singled out        | singled out        | seleccionar                     |
+| 382 | size up          | sized up           | sized up           | evaluar                         |
+| 383 | slip away        | slipped away       | slipped away       | escabullirse                    |
+| 384 | slip up          | slipped up         | slipped up         | equivocarse                     |
+| 385 | slow up          | slowed up          | slowed up          | desacelerar                     |
+| 386 | smell of         | smelled of         | smelled of         | oler a                          |
+| 387 | snap out of      | snapped out of     | snapped out of     | recuperarse                     |
+| 388 | sort through     | sorted through     | sorted through     | revisar                         |
+| 389 | sound out        | sounded out        | sounded out        | sondear                         |
+| 390 | space out        | spaced out         | spaced out         | desconectarse                   |
+| 391 | speak for        | spoke for          | spoken for         | hablar por                      |
+| 392 | spell out        | spelled out        | spelled out        | explicar claramente             |
+| 393 | spin off         | spun off           | spun off           | desprenderse/derivar            |
+| 394 | split off        | split off          | split off          | separar                         |
+| 395 | sponge off       | sponged off        | sponged off        | vivir a expensas de             |
+| 396 | spread out       | spread out         | spread out         | dispersarse                     |
+| 397 | spring up        | sprang up          | sprung up          | surgir                          |
+| 398 | square up        | squared up         | squared up         | saldar cuentas                  |
+| 399 | stamp out        | stamped out        | stamped out        | erradicar                       |
+| 400 | stand down       | stood down         | stood down         | retirarse        
+| 401 | stand in     | stood in      | stood in          | sustituir               |
+| 402 | stand up for | stood up for  | stood up for      | defender                |
+| 403 | stick out    | stuck out     | stuck out         | sobresalir              |
+| 404 | stick up for | stuck up for  | stuck up for      | defender                |
+| 405 | stir up      | stirred up    | stirred up        | provocar                |
+| 406 | switch over  | switched over | switched over     | cambiar                 |
+| 407 | take apart   | took apart    | taken apart       | desmontar               |
+| 408 | take back    | took back     | taken back        | retractarse             |
+| 409 | take down    | took down     | taken down        | derribar/anotar         |
+| 410 | take off     | took off      | taken off         | despegar/quitarse       |
+| 411 | take on      | took on       | taken on          | asumir                  |
+| 412 | take out     | took out      | taken out         | sacar                   |
+| 413 | take over    | took over     | taken over        | tomar control           |
+| 414 | take up      | took up       | taken up          | comenzar actividad      |
+| 415 | talk over    | talked over   | talked over       | discutir                |
+| 416 | team up      | teamed up     | teamed up         | asociarse               |
+| 417 | tell off     | told off      | told off          | reprender               |
+| 418 | think back   | thought back  | thought back      | recordar                |
+| 419 | think over   | thought over  | thought over      | reflexionar             |
+| 420 | throw away   | threw away    | thrown away       | tirar                   |
+| 421 | throw out    | threw out     | thrown out        | desechar                |
+| 422 | throw up     | threw up      | thrown up         | vomitar                 |
+| 423 | tidy up      | tidied up     | tidied up         | ordenar                 |
+| 424 | try on       | tried on      | tried on          | probar ropa             |
+| 425 | try out      | tried out     | tried out         | probar                  |
+| 426 | turn around  | turned around | turned around     | dar la vuelta           |
+| 427 | turn down    | turned down   | turned down       | rechazar                |
+| 428 | turn in      | turned in     | turned in         | entregar/reportar       |
+| 429 | turn into    | turned into   | turned into       | convertirse en          |
+| 430 | turn off     | turned off    | turned off        | apagar                  |
+| 431 | turn on      | turned on     | turned on         | encender                |
+| 432 | turn out     | turned out    | turned out        | resultar                |
+| 433 | turn up      | turned up     | turned up         | aparecer/subir volumen  |
+| 434 | use up       | used up       | used up           | agotar                  |
+| 435 | wake up      | woke up       | woken up          | despertarse             |
+| 436 | watch out    | watched out   | watched out       | tener cuidado           |
+| 437 | wear off     | wore off      | worn off          | desaparecer             |
+| 438 | wear out     | wore out      | worn out          | desgastar               |
+| 439 | work out     | worked out    | worked out        | ejercitar/resolver      |
+| 440 | work on      | worked on     | worked on         | trabajar en             |
+| 441 | wrap up      | wrapped up    | wrapped up        | finalizar/envolver      |
+| 442 | write down   | wrote down    | written down      | anotar                  |
+| 443 | write up     | wrote up      | written up        | redactar                |
+| 444 | zero in on   | zeroed in on  | zeroed in on      | concentrarse en         |
+| 445 | zip up       | zipped up     | zipped up         | cerrar con cremallera   |
+| 446 | zone out     | zoned out     | zoned out         | desconectarse           |
+| 447 | zoom in      | zoomed in     | zoomed in         | acercar (cámara)        |
+| 448 | zoom out     | zoomed out    | zoomed out        | alejar (cámara)         |
+| 449 | act up       | acted up      | acted up          | portarse mal/fallar     |
+| 450 | back up      | backed up     | backed up         | respaldar/retroceder    |
+| 451 | blow up      | blew up       | blown up          | explotar/enfadarse      |
+| 452 | break down   | broke down    | broken down       | averiarse/descomponerse |
+| 453 | bring about  | brought about | brought about     | provocar                |
+| 454 | call off     | called off    | called off        | cancelar                |
+| 455 | check out    | checked out   | checked out       | revisar/salir del hotel |
+| 456 | come across  | came across   | come across       | encontrarse con         |
+| 457 | cut down     | cut down      | cut down          | reducir                 |
+| 458 | cut off      | cut off       | cut off           | cortar/interrumpir      |
+| 459 | do over      | did over      | done over         | rehacer                 |
+| 460 | drop off     | dropped off   | dropped off       | dejar/entregar          |
+| 461 | eat out      | ate out       | eaten out         | comer fuera             |
+| 462 | figure out   | figured out   | figured out       | resolver                |
+| 463 | fill in      | filled in     | filled in         | rellenar                |
+| 464 | fill out     | filled out    | filled out        | completar formulario    |
+| 465 | get along    | got along     | gotten/got along  | llevarse bien           |
+| 466 | get around   | got around    | gotten/got around | moverse por ahí         |
+| 467 | get away     | got away      | gotten/got away   | escapar                 |
+| 468 | get by       | got by        | gotten/got by     | arreglárselas           |
+| 469 | get over     | got over      | gotten/got over   | superar                 |
+| 470 | give in      | gave in       | given in          | rendirse                |
+| 471 | give up      | gave up       | given up          | rendirse                |
+| 472 | go off       | went off      | gone off          | explotar/sonar          |
+| 473 | go on        | went on       | gone on           | continuar               |
+| 474 | grow up      | grew up       | grown up          | crecer                  |
+| 475 | hand in      | handed in     | handed in         | entregar                |
+| 476 | hang out     | hung out      | hung out          | pasar el rato           |
+| 477 | hold on      | held on       | held on           | esperar                 |
+| 478 | keep on      | kept on       | kept on           | continuar               |
+| 479 | look after   | looked after  | looked after      | cuidar                  |
+| 480 | look up      | looked up     | looked up         | buscar información      |
+| 481 | make up      | made up       | made up           | inventar/reconciliar    |
+| 482 | pick up      | picked up     | picked up         | recoger                 |
+| 483 | put off      | put off       | put off           | posponer                |
+| 484 | put on       | put on        | put on            | ponerse                 |
+| 485 | run out      | ran out       | run out           | agotarse                |
+| 486 | set up       | set up        | set up            | establecer/configurar   |
+| 487 | show up      | showed up     | shown up          | aparecer                |
+| 488 | shut down    | shut down     | shut down         | cerrar/apagar           |
+| 489 | sit down     | sat down      | sat down          | sentarse                |
+| 490 | stand up     | stood up      | stood up          | ponerse de pie          |
+| 491 | take off     | took off      | taken off         | despegar/quitarse       |
+| 492 | take over    | took over     | taken over        | tomar control           |
+| 493 | throw away   | threw away    | thrown away       | tirar                   |
+| 494 | turn down    | turned down   | turned down       | rechazar                |
+| 495 | turn up      | turned up     | turned up         | aparecer/subir volumen  |
+| 496 | wake up      | woke up       | woken up          | despertarse             |
+| 497 | watch out    | watched out   | watched out       | tener cuidado           |
+| 498 | work out     | worked out    | worked out        | ejercitar/resolver      |
+| 499 | write down   | wrote down    | written down      | anotar                  |
+| 500 | zoom in      | zoomed in     | zoomed in         | acercar (cámara)        |

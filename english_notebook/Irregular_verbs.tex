@@ -1,0 +1,333 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Irregular Verbs},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Irregular Verbs}
+\author{}
+\date{\vspace{-2.5em}2025-11-13}
+
+\begin{document}
+\maketitle
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1078}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1377}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1377}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1257}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1257}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1377}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.2275}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Forma Original
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Presente Afirmativo
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Participio Presente
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Pasado Afirmativo
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Pasado Participio
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Pronunciación (IPA)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Traducción
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+arise & arises & arising & arose & arisen & {[}@ˈraɪz{]} & surgir,
+levantarse \\
+awake & awakes & awaking & awoke & awoken & {[}@ˈwoʊk{]} &
+despertar(se) \\
+be & am/is/are & being & was/were & been & {[}biː{]} & ser, estar \\
+bear & bears & bearing & bore & borne & {[}ber{]} & soportar, dar a
+luz \\
+beat & beats & beating & beat & beaten & {[}biːt{]} & golpear \\
+become & becomes & becoming & became & become & {[}bɪˈkʌm{]} &
+convertirse en \\
+begin & begins & beginning & began & begun & {[}bɪˈɡɪn{]} & empezar \\
+bend & bends & bending & bent & bent & {[}bɛnd{]} & doblar \\
+bet & bets & betting & bet & bet & {[}bɛt{]} & apostar \\
+bind & binds & binding & bound & bound & {[}baɪnd{]} & atar,
+encuadernar \\
+bite & bites & biting & bit & bitten & {[}baɪt{]} & morder \\
+bleed & bleeds & bleeding & bled & bled & {[}bliːd{]} & sangrar \\
+blow & blows & blowing & blew & blown & {[}bloʊ{]} & soplar \\
+break & breaks & breaking & broke & broken & {[}breɪk{]} & romper \\
+bring & brings & bringing & brought & brought & {[}brɪŋ{]} & traer \\
+broadcast & broadcasts & broadcasting & broadcast & broadcast &
+{[}ˈbrɔːdkæst{]} & emitir, transmitir \\
+build & builds & building & built & built & {[}bɪld{]} & construir \\
+burn & burns & burning & burned & burned & {[}bɜrn{]} & quemar (US:
+burned) \\
+burst & bursts & bursting & burst & burst & {[}bɜrst{]} & estallar \\
+buy & buys & buying & bought & bought & {[}baɪ{]} & comprar \\
+catch & catches & catching & caught & caught & {[}kætʃ{]} & atrapar \\
+choose & chooses & choosing & chose & chosen & {[}tʃuːz{]} & elegir \\
+cling & clings & clinging & clung & clung & {[}klɪŋ{]} & aferrarse \\
+come & comes & coming & came & come & {[}kʌm{]} & venir \\
+cost & costs & costing & cost & cost & {[}kɒst{]} & costar \\
+creep & creeps & creeping & crept & crept & {[}kriːp{]} & arrastrarse \\
+cut & cuts & cutting & cut & cut & {[}kʌt{]} & cortar \\
+deal & deals & dealing & dealt & dealt & {[}diːl{]} & tratar,
+negociar \\
+dig & digs & digging & dug & dug & {[}dɪɡ{]} & cavar \\
+do & does & doing & did & done & {[}duː{]} & hacer \\
+draw & draws & drawing & drew & drawn & {[}drɔː{]} & dibujar, sacar \\
+dream & dreams & dreaming & dreamed & dreamed & {[}driːm{]} & soñar (US:
+dreamed) \\
+drink & drinks & drinking & drank & drunk & {[}drɪŋk{]} & beber \\
+drive & drives & driving & drove & driven & {[}draɪv{]} & conducir \\
+eat & eats & eating & ate & eaten & {[}iːt{]} & comer \\
+fall & falls & falling & fell & fallen & {[}fɔːl{]} & caer \\
+feed & feeds & feeding & fed & fed & {[}fiːd{]} & alimentar \\
+feel & feels & feeling & felt & felt & {[}fiːl{]} & sentir \\
+fight & fights & fighting & fought & fought & {[}faɪt{]} & pelear \\
+find & finds & finding & found & found & {[}faɪnd{]} & encontrar \\
+fit & fits & fitting & fit & fit & {[}fɪt{]} & encajar, quedar (US:
+fit) \\
+flee & flees & fleeing & fled & fled & {[}fliː{]} & huir \\
+fly & flies & flying & flew & flown & {[}flaɪ{]} & volar \\
+forbid & forbids & forbidding & forbade & forbidden &
+{[}\href{mailto:f@rˈbɪd}{\nolinkurl{f@rˈbɪd}}{]} & prohibir \\
+forget & forgets & forgetting & forgot & forgotten &
+{[}\href{mailto:f@rˈɡɛt}{\nolinkurl{f@rˈɡɛt}}{]} & olvidar \\
+forgive & forgives & forgiving & forgave & forgiven &
+{[}\href{mailto:f@rˈɡɪv}{\nolinkurl{f@rˈɡɪv}}{]} & perdonar \\
+freeze & freezes & freezing & froze & frozen & {[}friːz{]} & congelar \\
+get & gets & getting & got & gotten & {[}ɡɛt{]} & obtener (US: gotten
+como participio) \\
+give & gives & giving & gave & given & {[}ɡɪv{]} & dar \\
+go & goes & going & went & gone & {[}ɡoʊ{]} & ir \\
+grow & grows & growing & grew & grown & {[}ɡroʊ{]} & crecer \\
+hang & hangs & hanging & hung & hung & {[}hæŋ{]} & colgar \\
+have & has & having & had & had & {[}hæv{]} & tener \\
+hear & hears & hearing & heard & heard & {[}hɪr{]} & oír \\
+hide & hides & hiding & hid & hidden & {[}haɪd{]} & esconder \\
+hit & hits & hitting & hit & hit & {[}hɪt{]} & golpear \\
+hold & holds & holding & held & held & {[}hoʊld{]} & sostener \\
+hurt & hurts & hurting & hurt & hurt & {[}hɜrt{]} & herir \\
+keep & keeps & keeping & kept & kept & {[}kiːp{]} & mantener \\
+kneel & kneels & kneeling & knelt & knelt & {[}niːl{]} & arrodillarse \\
+know & knows & knowing & knew & known & {[}noʊ{]} & saber, conocer \\
+lay & lays & laying & laid & laid & {[}leɪ{]} & poner, colocar \\
+lead & leads & leading & led & led & {[}liːd{]} & dirigir, guiar \\
+lean & leans & leaning & leaned & leaned & {[}liːn{]} & inclinarse (US:
+leaned) \\
+leap & leaps & leaping & leaped & leaped & {[}liːp{]} & saltar (US:
+leaped) \\
+leave & leaves & leaving & left & left & {[}liːv{]} & dejar, irse \\
+lend & lends & lending & lent & lent & {[}lɛnd{]} & prestar \\
+let & lets & letting & let & let & {[}lɛt{]} & permitir \\
+lie & lies & lying & lay & lain & {[}laɪ{]} & yacer, acostarse \\
+light & lights & lighting & lit & lit & {[}laɪt{]} & encender,
+iluminar \\
+lose & loses & losing & lost & lost & {[}luːz{]} & perder \\
+make & makes & making & made & made & {[}meɪk{]} & hacer, fabricar \\
+mean & means & meaning & meant & meant & {[}miːn{]} & significar \\
+meet & meets & meeting & met & met & {[}miːt{]} & encontrarse \\
+melt & melts & melting & melted & melted & {[}mɛlt{]} & derretir (US:
+melted) \\
+mistake & mistakes & mistaking & mistook & mistaken & {[}mɪˈsteɪk{]} &
+equivocarse \\
+miss & misses & missing & missed & missed & {[}mɪs{]} & fallar,
+extrañar \\
+mow & mows & mowing & mowed & mown/mowed & {[}moʊ{]} & cortar
+(césped) \\
+overcome & overcomes & overcoming & overcame & overcome &
+{[}\href{mailto:ˌoʊv@rˈkʌm}{\nolinkurl{ˌoʊv@rˈkʌm}}{]} & superar \\
+pay & pays & paying & paid & paid & {[}peɪ{]} & pagar \\
+prove & proves & proving & proved & proven & {[}pruːv{]} & demostrar
+(US: proven) \\
+put & puts & putting & put & put & {[}pʊt{]} & poner \\
+quit & quits & quitting & quit & quit & {[}kwɪt{]} & dejar, renunciar \\
+read & reads & reading & read & read & {[}riːd{]} & leer \\
+ride & rides & riding & rode & ridden & {[}raɪd{]} & montar \\
+ring & rings & ringing & rang & rung & {[}rɪŋ{]} & sonar \\
+rise & rises & rising & rose & risen & {[}raɪz{]} & elevarse \\
+run & runs & running & ran & run & {[}rʌn{]} & correr \\
+saw & saws & sawing & sawed & sawn/sawed & {[}sɔː{]} & serrar \\
+say & says & saying & said & said & {[}seɪ{]} & decir \\
+see & sees & seeing & saw & seen & {[}siː{]} & ver \\
+seek & seeks & seeking & sought & sought & {[}siːk{]} & buscar \\
+sell & sells & selling & sold & sold & {[}sɛl{]} & vender \\
+send & sends & sending & sent & sent & {[}sɛnd{]} & enviar \\
+set & sets & setting & set & set & {[}sɛt{]} & colocar, establecer \\
+sew & sews & sewing & sewed & sewn/sewed & {[}soʊ{]} & coser \\
+shake & shakes & shaking & shook & shaken & {[}ʃeɪk{]} & sacudir \\
+shed & sheds & shedding & shed & shed & {[}ʃɛd{]} & derramar, mudar
+(pelo) \\
+shine & shines & shining & shone & shone & {[}ʃaɪn{]} & brillar \\
+shoot & shoots & shooting & shot & shot & {[}ʃuːt{]} & disparar \\
+show & shows & showing & showed & shown & {[}ʃoʊ{]} & mostrar \\
+shrink & shrinks & shrinking & shrank & shrunk & {[}ʃrɪŋk{]} &
+encoger \\
+shut & shuts & shutting & shut & shut & {[}ʃʌt{]} & cerrar \\
+sing & sings & singing & sang & sung & {[}sɪŋ{]} & cantar \\
+sink & sinks & sinking & sank & sunk & {[}sɪŋk{]} & hundirse \\
+sit & sits & sitting & sat & sat & {[}sɪt{]} & sentarse \\
+sleep & sleeps & sleeping & slept & slept & {[}sliːp{]} & dormir \\
+slide & slides & sliding & slid & slid & {[}slaɪd{]} & deslizar \\
+sling & slings & slinging & slung & slung & {[}slɪŋ{]} & lanzar,
+arrojar \\
+smell & smells & smelling & smelled & smelled & {[}smɛl{]} & oler (US:
+smelled) \\
+smite & smites & smiting & smote & smitten & {[}smaɪt{]} & golpear \\
+speak & speaks & speaking & spoke & spoken & {[}spiːk{]} & hablar \\
+speed & speeds & speeding & sped & sped & {[}spiːd{]} & acelerar \\
+spell & spells & spelling & spelled & spelled & {[}spɛl{]} & deletrear
+(US: spelled) \\
+spend & spends & spending & spent & spent & {[}spɛnd{]} & gastar, pasar
+tiempo \\
+spill & spills & spilling & spilled & spilled & {[}spɪl{]} & derramar
+(US: spilled) \\
+spin & spins & spinning & spun & spun & {[}spɪn{]} & girar, hilar \\
+spit & spits & spitting & spit & spit & {[}spɪt{]} & escupir \\
+split & splits & splitting & split & split & {[}splɪt{]} & dividir,
+partir \\
+spoil & spoils & spoiling & spoiled & spoiled & {[}spɔɪl{]} & arruinar
+(US: spoiled) \\
+spread & spreads & spreading & spread & spread & {[}sprɛd{]} &
+extender \\
+spring & springs & springing & sprang & sprung & {[}sprɪŋ{]} & saltar \\
+stand & stands & standing & stood & stood & {[}stænd{]} & estar de
+pie \\
+steal & steals & stealing & stole & stolen & {[}stiːl{]} & robar \\
+stick & sticks & sticking & stuck & stuck & {[}stɪk{]} & pegar,
+adherir \\
+sting & stings & stinging & stung & stung & {[}stɪŋ{]} & picar \\
+stink & stinks & stinking & stank & stunk & {[}stɪŋk{]} & apestar \\
+stride & strides & striding & strode & stridden & {[}straɪd{]} & zancada
+(stride) \\
+strike & strikes & striking & struck & struck & {[}straɪk{]} & golpear,
+atacar \\
+string & strings & stringing & strung & strung & {[}strɪŋ{]} &
+encordar \\
+strive & strives & striving & strove & striven & {[}straɪv{]} &
+esforzarse \\
+swear & swears & swearing & swore & sworn & {[}swɛr{]} & jurar \\
+sweep & sweeps & sweeping & swept & swept & {[}swiːp{]} & barrer \\
+swell & swells & swelling & swelled & swollen & {[}swɛl{]} &
+hincharse \\
+swim & swims & swimming & swam & swum & {[}swɪm{]} & nadar \\
+swing & swings & swinging & swung & swung & {[}swɪŋ{]} & columpiarse \\
+take & takes & taking & took & taken & {[}teɪk{]} & tomar, llevar \\
+teach & teaches & teaching & taught & taught & {[}tiːtʃ{]} & enseñar \\
+tear & tears & tearing & tore & torn & {[}tɛr{]} & romper, desgarrar \\
+tell & tells & telling & told & told & {[}tɛl{]} & decir, contar \\
+think & thinks & thinking & thought & thought & {[}θɪŋk{]} & pensar \\
+thrive & thrives & thriving & thrived & thrived & {[}θraɪv{]} &
+prosperar (US: thrived) \\
+throw & throws & throwing & threw & thrown & {[}θroʊ{]} & lanzar \\
+thrust & thrusts & thrusting & thrust & thrust & {[}θrʌst{]} &
+empujar \\
+tread & treads & treading & trod & trodden/trod & {[}trɛd{]} & pisar \\
+understand & understands & understanding & understood & understood &
+{[}\href{mailto:ˌʌnd@rˈstænd}{\nolinkurl{ˌʌnd@rˈstænd}}{]} & entender \\
+undo & undos & undoing & undid & undone & {[}ʌnˈduː{]} & deshacer \\
+uphold & upholds & upholding & upheld & upheld & {[}ʌpˈhoʊld{]} &
+mantener, apoyar \\
+upset & upsets & upsetting & upset & upset & {[}ʌpˈsɛt{]} & alterar,
+molestar \\
+wake & wakes & waking & woke & woken & {[}weɪk{]} & despertar \\
+wear & wears & wearing & wore & worn & {[}wɛr{]} & usar, vestir \\
+weave & weaves & weaving & wove & woven & {[}wiːv{]} & tejer \\
+weep & weeps & weeping & wept & wept & {[}wiːp{]} & llorar \\
+win & wins & winning & won & won & {[}wɪn{]} & ganar \\
+wind & winds & winding & wound & wound & {[}waɪnd{]} & enrollar, dar
+cuerda \\
+withdraw & withdraws & withdrawing & withdrew & withdrawn &
+{[}wɪðˈdrɔː{]} & retirar(se) \\
+withhold & withholds & withholding & withheld & withheld &
+{[}wɪðˈhoʊld{]} & retener \\
+withstand & withstands & withstanding & withstood & withstood &
+{[}wɪðˈstænd{]} & resistir \\
+wring & wrings & wringing & wrung & wrung & {[}rɪŋ{]} & exprimir,
+retorcer \\
+write & writes & writing & wrote & written & {[}raɪt{]} & escribir \\
+awake* & awakes* & awaking* & awoke* & awoken* & {[}@ˈwoʊk{]} &
+(variante) \\
+betide & betides & betiding & betid & betid & {[}bɪˈtaɪd{]} & acontecer
+(arcaico) \\
+beset & besets & besetting & beset & beset & {[}bɪˈsɛt{]} & asediar,
+acosar \\
+alight & alights & alighting & alit & alit & {[}@ˈlaɪt{]} & posarse,
+descender (alit) \\
+beseech & beseeches & beseeching & besought & besought & {[}bɪˈsiːtʃ{]}
+& rogar (besought) \\
+\end{longtable}
+
+\end{document}
